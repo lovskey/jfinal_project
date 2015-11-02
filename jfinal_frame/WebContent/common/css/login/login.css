@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+
+body {
+	min-width: 1000px;
+	min-height: 600px;
+	overflow: auto;
+}
+

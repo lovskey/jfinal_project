@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+#north {
+	height: 50px;
+	line-height: 50px;
+	background-color: #303a40;
+	color: #999;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#west {
+	width:260px;
+}
+
+#south {
+	height: 30px;
+	line-height: 30px;
+	background-color: #303a40;
+}
+
+#center {
+	
+}
+
+#topLeftDiv {
+	float: left;
+	margin-left: 100px;
+}
+
+#topRightDiv {
+	float: right;
+}
+
+#topRightDiv div {
+	float: left;
+}
+
+#account {
+	font-size: 16px;
+	margin-right: 50px;
+}
+
+#loginOutBtn {
+	width: 150px;
+	height: 50px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+	border-left: 1px solid #444;
+}
+
+#loginOutBtn:hover { 
+	background-color: #6D879F;
+	color: #fff;
+}
+
+
+
+.panel-tool .layout-button-left {
+	display: none;
+}
+
+.tree-node {
+    padding: 2px 0 3px;
+}
+
+.accordion-body .tree-icon {
+	display: none;
+}
+
+.tabs li a.tabs-inner {
+    border-color: #e4e4e4;
+}
+
+

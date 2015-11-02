@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+#north {
+	height: 40px;
+	background-color: #428bca;
+}
+
+#northTitleDiv {
+	margin-left: 40px;
+	float: left;
+}
+
+#northTitleDiv img {
+    float: left;
+    height: 30px;
+    padding-top: 4px;
+    width: 30px;
+}
+
+#northTitle {
+    color: #fff;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 0 0 5px;
+}
+
+#userInfoDiv {
+	margin: 4px 0 0 100px;
+	color: #fff;
+	font-size: 18px;
+	float: left;
+}
+
+#loginOutDiv {
+	margin-right: 100px;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	float: left;
+}
+
+#loginOutDiv span {
+    color: #fff;
+    float: left;
+    font-size: 18px;
+    padding-top: 4px;
+    text-decoration: underline;
+}
+
+#loginOutDiv span:hover {
+    color: #31BDA6;
+}
+
+#loginOutDiv img {
+	width: 24px;
+	height: 24px;
+	padding: 5px 3px 0 25px;
+	float: left;
+}
+
+#center.panel-body {
+	padding: 0;
+}
+
+#south.panel-body {
+	padding: 0;
+}
+
+#west.panel-head {
+	padding: 10px;
+}
+
+#leftAccordion .panel-title {
+    padding-left: 10px;
+}
+
+#leftAccordion .panel-body {
+    padding: 0;
+}
+
+#leftAccordion .tree-node {
+    height: 26px;
+    padding-top: 2px;
+}
+
+#leftAccordion .tree-node-selected {
+    background: none repeat scroll 0 0 #428bca;
+}
+
+#leftAccordion .tree-node-selected .tree-title {
+    color: #fff;
+}
+
+#leftAccordion .tree-file {
+    background: none;
+    display: none;
+}
+
+#leftAccordion .tree-indent {
+    background: none;
+    display: none;
+}
+
+#leftAccordion .tree-title {
+	padding-left: 20px;
+}
+
+#rightTabs .tabs-title {
+	font-size: 13px;
+	padding-right: 15px;
+}
+
+#rightTabs .tabs-selected .tabs-title {
+	color: #428bca;
+}
+
+#rightTabs .panel-body {
+    padding: 0;
+}
+
+
+.panel {
+    border: none;
+    border-radius: 0;
+}
+.panel-body-noheader {
+    border-top-width: 0;
+}
+.panel-header {
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+.panel-title {
+    font-size: 14px;
+}
+
+.menu-text {
+    left: 36px;
+    color: #C10106;
+}
+
+.menu-icon {
+	left: 0;
+    top: 0;
+    color: #C10106;
+}
+
+.iw-modalBox{
+	padding:5px;
+	color: #8a6d3b;
+	background-color: #fcf8e3;
+	border: 1px solid #faebcc;
+}
+
+.iw-modalOverlay{
+}

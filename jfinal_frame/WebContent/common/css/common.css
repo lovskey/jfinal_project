@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+html {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* 页面 */
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+    background: #FFF;
+}
+
+* {
+    font-family: "Microsoft YaHei" ! important;
+	font-size: 14px;
+}
+
+img {
+	border: none;
+}
+
+/* 文字 */
+/* 文字超出显示省略号 */
+.text-ellipsis{
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: keep-all;
+}
+/* 文字下划线 */
+.text-decoration{
+    text-decoration: underline;
+}
+/* 在div块里，把文本排列到左边 */
+.text-align-left{
+	text-align: left;
+}
+/* 在div块里，把文本排列到右边 */
+.text-align-right{
+	text-align: right;
+}
+/* 在div块里，把文本排列到中间 */
+.text-align-center{
+	text-align: center;
+}
+/* 在div块里，实现两端对齐文本效果 */
+.text-align-justify{
+	text-align: justify;
+}
+
+/* 鼠标手型 */
+.cursorPointer{
+    cursor: pointer;
+}
+
+/* 旋转 */
+.rotate30{
+	-moz-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	-o-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	transform: rotate(30deg);
+}
+
+/* 圆角矩形 */
+.round-rectangle {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/* box 阴影 */
+.box-shadow {
+	-moz-box-shadow: 0px 0px 8px #8CA8C1;
+	-webkit-box-shadow: 0px 0px 8px #8CA8C1;
+	-o-box-shadow: 0px 0px 8px #8CA8C1;
+	box-shadow: 0px 0px 8px #8CA8C1;
+	behavior: url(./common/css/ie-css3.htc);
+}
+
+/* div 背景渐变  */
+.div-gradient {
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EEE), to(#F0FCFE));
+	background: -moz-linear-gradient(0% 0% 270deg, #EEE,#F0FCFE);
+	background: -o-linear-gradient(top, #EEE, #F0FCFE);
+	background: -ms-linear-gradient(top, #EEE, #F0FCFE);/* IE10 */
+	filter: progid:DXImageTransform.microsoft.gradient(gradienttype=0, startColorStr=#EEEEEE, endColorStr=#F0FCFE);/* IE 6 7 8 */
+}
+
+/* 错误信息  */
+.error-msg {
+	font-weight: bold;
+	color: #a91717;
+	text-align: center;
+	border: 1px solid #e4e4e4;
+	padding:3px 0;
+	display: none;
+}
+
+/* easyUI */
+.calendar-menu {
+    opacity: 1;
+}
+
+.l-btn {
+	outline: none;
+}
+/* easyUI */

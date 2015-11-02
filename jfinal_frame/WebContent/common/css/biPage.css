@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+.easyui-linkbutton {
+	margin-right: 10px;
+}
+
+#operate-action {
+	padding: 10px 0 10px 30px;
+	background-color: #cce6ff;
+}
+
+#operate-action .easyui-linkbutton .l-btn-text {
+	padding: 0 15px 2px;
+}
+
+#operate-action .l-btn-focus {
+    outline: none;
+}
+
+.btn-div .easyui-linkbutton .l-btn-text {
+	padding: 0 15px 2px;
+}
+
+#queryForm {
+	padding: 20px 0 10px 30px;
+}
+
+#queryForm label {
+	padding-left: 10px;
+}
+
+#queryForm .l-btn-focus {
+    outline: none;
+}
+
+#modalOperate {
+	margin: 40px 0 20px 0;
+	text-align: center;
+}
+
+#modalOperate .easyui-linkbutton .l-btn-text {
+	padding: 0 15px 2px;
+}
+

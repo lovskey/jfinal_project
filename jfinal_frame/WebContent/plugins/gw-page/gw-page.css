@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+.gw-page-div {
+	background: #f4f4f4 none repeat scroll 0 0;
+    height: 30px;
+    padding: 10px 0;
+}
+
+.gw-page-info {
+	float: left;
+	padding: 5px 40px;	
+}
+
+.gw-page {
+    padding: 3px 5px;
+    margin-left: 2px;
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #d3d3d3;
+    color: #000;
+    display: inline-block;
+    font: 12px "Microsoft YaHei";
+    text-align: center;
+	cursor: pointer;
+	border-radius: 3px;
+}
+.gw-page-active {
+    background: none repeat scroll 0 0 #a91717;
+    border: 1px solid #a91717;
+    color: #fff;
+	cursor: default;
+}
+.gw-page-disabled {
+	color: #ccc;
+	cursor: not-allowed;
+}
+.gw-page-link {
+}
+.gw-page-dot {
+	margin-left: 3px;
+	color: #000;
+}
+
+.total-record-div {
+	float: left;
+	padding-top: 4px;	
+}

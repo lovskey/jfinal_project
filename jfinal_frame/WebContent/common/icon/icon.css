@@ -1,0 +1,64 @@
+@CHARSET "UTF-8";
+
+/* application */
+.icon-application-24 {
+    background: url("./images/application-24.png") no-repeat scroll 0 -3px transparent;
+    float: left;
+    height: 24px;
+    width: 24px;
+    padding-right: 5px;
+}
+
+/* version */
+.icon-version-24 {
+    background: url("./images/version-24.png") no-repeat scroll 0 -3px transparent;
+    float: left;
+    height: 24px;
+    width: 24px;
+    padding-right: 5px;
+}
+
+/* user-info */
+.icon-user-info-24 {
+    background: url("./images/user-info-24.png") no-repeat scroll 0 -3px transparent;
+    float: left;
+    height: 24px;
+    width: 24px;
+    padding-right: 5px;
+}
+
+/* user-password */
+.icon-user-password-24 {
+    background: url("./images/user-password-24.png") no-repeat scroll 0 -3px transparent;
+    float: left;
+    height: 24px;
+    width: 24px;
+    padding-right: 5px;
+}
+
+/* role-manage */
+.icon-role-manage-24 {
+    background: url("./images/role-manage-24.png") no-repeat scroll 0 -3px transparent;
+    float: left;
+    height: 24px;
+    width: 24px;
+    padding-right: 5px;
+}
+
+/* user-manage */
+.icon-user-manage-24 {
+    background: url("./images/user-manage-24.png") no-repeat scroll 0 -3px transparent;
+    float: left;
+    height: 24px;
+    width: 24px;
+    padding-right: 5px;
+}
+
+/* authority-manage */
+.icon-authority-manage-24 {
+    background: url("./images/authority-manage-24.png") no-repeat scroll 0 -3px transparent;
+    float: left;
+    height: 24px;
+    width: 24px;
+    padding-right: 5px;
+}

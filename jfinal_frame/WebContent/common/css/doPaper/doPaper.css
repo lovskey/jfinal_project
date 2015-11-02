@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+.top-div {
+    background-color: #fff;
+    height: 110px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+.student-info-div {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.student-info-label {
+	width: 50px;
+}
+
+.student-info-label span {
+	font-weight: bold;
+	color: #31bda6;
+}
+
+.student-info-value {
+	width: 150px;
+}
+
+.student-info-value span {
+	color: #31bda6;
+}
+
+#loginOutDiv {
+    cursor: pointer;
+}
+
+#loginOutDiv img {
+	float: left;
+    height: 24px;
+    padding: 5px 3px 0 25px;
+    width: 24px;
+}
+
+#loginOutDiv span {
+	float: left;
+    font-size: 18px;
+    padding-top: 4px;
+    text-decoration: underline;
+}
+
+#loginOutDiv span:hover {
+    color: #31bda6;
+}
+
+.paper-title-div {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.btn {
+    min-width: 150px;
+}
+
+#rePaperBtn {
+	display: none;
+}
+
+#scoreDiv {
+    font-weight: bold;
+    height: 35px;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 1000px;
+}
+
+#scoreDiv span {
+	color: #d6000f;
+}
+
+.paper-info-div {
+	width: 1000px;
+	min-height: 600px;
+	margin: 115px auto 0;
+	padding: 10px 20px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.paper-item-div {
+	margin-bottom: 10px;
+}
+
+.paper-item-title {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.item-num {
+	width: 20px;
+}
+
+.item-title {
+	
+}
+
+.paper-item-option {
+	padding-left: 25px;
+}
+
+.item-option-div {
+	
+}
+
+.option-num {
+	
+}
+
+.option-content {
+	
+}
+
+.paper-post-div {
+	display: none;
+	margin: 20px 0;
+}
