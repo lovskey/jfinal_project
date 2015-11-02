@@ -1,0 +1,4 @@
+jdbcUrl = jdbc:mysql://localhost/frame?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+user = admin
+password = admin
+devMode = true
